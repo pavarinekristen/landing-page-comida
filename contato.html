@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">F<span>oo</span>D P<span>av</span>A</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./about.html">Sobre Mim</a></li>
+                <li class="nav-item"><a href="./produtos.html">Menu</a></li>
+                <li class="nav-item"><a href="./contato.html">Contato</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="contact">
+            <h2 class="h22">Entre em Contato</h2>
+            <p class="textoo">Estamos aqui para responder a todas as suas perguntas e garantir que você tenha a melhor experiência possível. Entre em contato conosco através de qualquer um dos meios abaixo.</p>
+            
+            <div class="contato2">
+                <div class="contato3">
+                    <h4 class="cinza">Nosso Endereço</h4>
+                    <p class="cinza2">Rua dos Saborosos, 123<br>Centro, Cidade Gourmet</p>
+                </div>
+                <div class="contato3">
+                    <h4 class="cinza">Telefone</h4>
+                    <p class="cinza2">(12) 3456-7890</p>
+                </div>
+                <div class="contato3">
+                    <h4 class="cinza">Email</h4>
+                    <p class="cinza2">contato@sanduichesdeliciosos.com</p>
+                </div>
+            </div>
+    
+            <form action="submit_form.php" method="post" class="phpp" >
+                <div class="contato4">
+                    <label for="name" class="labell">Nome:</label>
+                    <input type="text" id="name" name="name" required class="inputt">
+                </div>
+                <div class="contato4">
+                    <label for="email" class="labell">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="seuemail@dominio.com" class="inputt">
+                </div>
+                <div class="contato4">
+                    <label for="message" class="labell">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required class="inputt"></textarea>
+                </div>
+                <button type="submit" class="buttonn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer  class="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="texto4">Sanduíches Deliciosos</h4>
+                    <p>Endereço: Rua dos Saborosos, 123, Centro, Cidade Gourmet</p>
+                    <p>Telefone: (12) 3456-7890</p>
+                    <p>Email: contato@sanduichesdeliciosos.com</p>
+                    <div style="margin: 20px 0;">
+                        <a href="https://facebook.com" class="texto">Facebook</a>
+                        <a href="https://instagram.com" class="texto">Instagram</a>
+                        <a href="https://twitter.com" class="texto">Twitter</a>
+                    </div>
+                    <p class="paragrafo">&copy; 2024 Sanduíches Deliciosos. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
